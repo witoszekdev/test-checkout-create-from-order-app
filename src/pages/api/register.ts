@@ -22,4 +22,7 @@ export default createAppRegisterHandler({
      * Alternatively pass a function
      */
   ],
+  async onAuthAplSaved(_, ctx) {
+    console.log(ctx.authData);
+  },
 });
